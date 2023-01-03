@@ -167,8 +167,8 @@ export default function Home() {
                   <strong className="font-bold">Next.js</strong>) ou back-end (
                   <strong className="font-bold">Node.js</strong>,{" "}
                   <strong className="font-bold">Nest.js</strong>), j&apos;ai
-                  déjà néanmoins travaillé avec d'autres langages/frameworks
-                  (PHP, Symfony, ...). <br />
+                  déjà néanmoins travaillé avec d&apos;autres
+                  langages/frameworks (PHP, Symfony, ...). <br />
                   Titulaire du titre professionnel{" "}
                   <span className="font-bold">Développeur Web & Mobile</span> et
                   de celui de{" "}
