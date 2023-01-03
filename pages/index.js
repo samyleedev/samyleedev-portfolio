@@ -183,7 +183,7 @@ export default function Home() {
                   déploiement.
                 </p>
               </div>
-              <div className="flex flex-col p-3 justify-center flex-1">
+              <div className="flex flex-col p-3 justify-center flex-1 pt-10">
                 <div className="flex-1 space-y-3">
                   <div className="flex flex-row justify-center items-center">
                     <p className="w-28 text-slate-800 dark:text-slate-50 font-burtons bold mr-2">
@@ -247,7 +247,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <div className="flex md:hidden lg:hidden  flex-row flex-wrap">
+        <div className="flex md:hidden lg:hidden  flex-row flex-wrap mb-10">
           {technologies.map(({ title, logo }) => (
             <div
               key={title}
