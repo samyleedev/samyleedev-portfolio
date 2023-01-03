@@ -145,8 +145,9 @@ export default function Home() {
             <h2 className="text-teal-600 dark:text-yellow-400 text-5xl font-burtons text-bold mb-5">
               Qui suis-je ?
             </h2>
+
             <img
-              className="rounded-full w-60 h-60 ml-10"
+              className="ml-5 rounded-full max-w-48 max-h-48"
               src="../PSX_20200309_185130.jpg"
               alt="Photo de moi"
             />
@@ -183,15 +184,15 @@ export default function Home() {
                 <div className="flex-1 space-y-3">
                   <div className="flex flex-row justify-center items-center">
                     <p className="w-28 text-slate-800 dark:text-slate-50 font-burtons bold mr-2">
-                      Curiosité
+                      Curieux
                     </p>
                     <div className="relative w-full h-10 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800">
-                      <div className="absolute top-0 -left-1 h-full w-[55%]  bg-blue-700 rounded-full "></div>
+                      <div className="absolute top-0 -left-1 h-full w-[90%]  bg-blue-700 rounded-full "></div>
                     </div>
                   </div>
                   <div className="flex flex-row justify-center items-center">
                     <p className="w-28 text-slate-800 dark:text-slate-50 font-burtons bold mr-2">
-                      Sympathie
+                      Sympathique
                     </p>
                     <div className="relative w-full h-10 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800">
                       <div className="absolute top-0 -left-1 h-full w-[80%]  bg-red-700 rounded-full "></div>
@@ -200,19 +201,19 @@ export default function Home() {
 
                   <div className="flex flex-row justify-center items-center">
                     <p className="w-28 text-slate-800 dark:text-slate-50 font-burtons bold mr-2">
-                      Flexibilité
+                      Coopératif
                     </p>
                     <div className="relative w-full h-10 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800">
-                      <div className="absolute top-0 -left-1 h-full w-[60%]  bg-green-700 rounded-full"></div>
+                      <div className="absolute top-0 -left-1 h-full w-[82%]  bg-green-700 rounded-full"></div>
                     </div>
                   </div>
 
                   <div className="flex flex-row justify-center items-center">
                     <p className="w-28 text-slate-800 dark:text-slate-50 font-burtons bold mr-2">
-                      Adaptabilité
+                      Adaptable
                     </p>
                     <div className="relative w-full h-10 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800">
-                      <div className="absolute top-0 -left-1 h-full w-[70%]  bg-yellow-500 rounded-full"></div>
+                      <div className="absolute top-0 -left-1 h-full w-[85%]  bg-yellow-500 rounded-full"></div>
                     </div>
                   </div>
 
