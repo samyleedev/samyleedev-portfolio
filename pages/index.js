@@ -170,8 +170,8 @@ export default function Home() {
                   <strong className="font-bold">Nest.js</strong>), je peux aussi
                   travailler avec d&apos;autres langages/frameworks/outils (PHP,
                   Symfony, Wordpress ...).
-                  <br /> Et oui ... c'est la solution qui s'adapte au besoin et
-                  non l'inverse ! 😉 <br />
+                  <br /> Et oui ... c&apos;est la solution qui s&apos;adapte au
+                  besoin et non l&apos;inverse ! 😉 <br />
                   Titulaire du titre professionnel{" "}
                   <span className="font-bold">Développeur Web & Mobile</span> et
                   de celui de{" "}
