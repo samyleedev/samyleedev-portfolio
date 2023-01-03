@@ -178,8 +178,9 @@ export default function Home() {
                   <span className="font-bold">
                     Concepteur Développeur d&apos;Applications
                   </span>{" "}
-                  , je peux participer à la construction de l&apos;application
-                  de vos rêves de sa conception à son déploiement.
+                  , je me ferai un plaisir de participer à la construction de
+                  l&apos;application de vos rêves de sa conception à son
+                  déploiement.
                 </p>
               </div>
               <div className="flex flex-col p-3 justify-center flex-1">
