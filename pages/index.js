@@ -167,9 +167,11 @@ export default function Home() {
                   <strong className="font-bold">React.js</strong>,{" "}
                   <strong className="font-bold">Next.js</strong>) ou back-end (
                   <strong className="font-bold">Node.js</strong>,{" "}
-                  <strong className="font-bold">Nest.js</strong>), j&apos;ai
-                  déjà néanmoins travaillé avec d&apos;autres
-                  langages/frameworks (PHP, Symfony, ...). <br />
+                  <strong className="font-bold">Nest.js</strong>), je peux aussi
+                  travailler avec d&apos;autres langages/frameworks/outils (PHP,
+                  Symfony, Wordpress ...).
+                  <br /> Et oui ... c'est la solution qui s'adapte au besoin et
+                  non l'inverse ! 😉 <br />
                   Titulaire du titre professionnel{" "}
                   <span className="font-bold">Développeur Web & Mobile</span> et
                   de celui de{" "}
