@@ -125,7 +125,7 @@ export default function Home() {
               <a href="#contact">Contactez-moi !</a>
             </button>
           </div>
-          <div className="basis-full shrink ">
+          <div className="basis-full shrink flex justify-center items-start">
             <img
               src={
                 darkMode
@@ -133,7 +133,7 @@ export default function Home() {
                   : "../undraw_feeling_proud_qne1_teal.svg"
               }
               alt="logo accueil"
-              className="ml-20 hidden lg:block p-5"
+              className="hidden lg:block"
             />
           </div>
         </section>
