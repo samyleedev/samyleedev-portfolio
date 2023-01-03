@@ -222,7 +222,7 @@ export default function Home() {
 
                   <div className="flex flex-row justify-center items-center">
                     <p className="w-28 text-slate-800 dark:text-slate-50 font-burtons bold mr-2">
-                      Niveau d&apos;anglais
+                      Anglophone
                     </p>
                     <div className="relative w-full h-10 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800">
                       <div className="absolute top-0 -left-1 h-full w-[80%]  bg-pink-500 rounded-full"></div>
