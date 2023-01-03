@@ -157,26 +157,26 @@ export default function Home() {
               <div className="p-3 flex-1 ">
                 <p className="text-slate-800 dark:text-slate-50 text-xl mb-5 border-l-2 pl-5">
                   <span className="text-6xl">S</span>
-                  alut à toi cher visiteur ! Je m'appelle Samy-Lee LEVY,
-                  j'habite à <strong className="font-bold">Nantes</strong>, et
-                  je suis <strong>développeur web fullstack</strong> !
-                  Principalement attiré par l'environnement{" "}
+                  alut à toi cher visiteur ! Je m&apos;appelle Samy-Lee LEVY,
+                  j&apos;habite à <strong className="font-bold">Nantes</strong>,
+                  et je suis <strong>développeur web fullstack</strong> !
+                  Principalement attiré par l&apos;environnement{" "}
                   <strong className="font-bold">Javascript & Typescript</strong>{" "}
                   , que ce soit côté front-end (
                   <strong className="font-bold">React.js</strong>,{" "}
                   <strong className="font-bold">Next.js</strong>) ou back-end (
                   <strong className="font-bold">Node.js</strong>,{" "}
-                  <strong className="font-bold">Nest.js</strong>), j'ai déjà
-                  néanmoins travaillé avec d'autres langages/frameworks (PHP,
-                  Symfony, ...). <br />
+                  <strong className="font-bold">Nest.js</strong>), j&apos;ai
+                  déjà néanmoins travaillé avec d'autres langages/frameworks
+                  (PHP, Symfony, ...). <br />
                   Titulaire du titre professionnel{" "}
                   <span className="font-bold">Développeur Web & Mobile</span> et
                   de celui de{" "}
                   <span className="font-bold">
-                    Concepteur Développeur d'Applications
+                    Concepteur Développeur d&apos;Applications
                   </span>{" "}
-                  , je peux participer à la construction de l'application de vos
-                  rêves de sa conception à son déploiement.
+                  , je peux participer à la construction de l&apos;application
+                  de vos rêves de sa conception à son déploiement.
                 </p>
               </div>
               <div className="flex flex-col p-3 justify-center flex-1">
@@ -218,7 +218,7 @@ export default function Home() {
 
                   <div className="flex flex-row justify-center items-center">
                     <p className="w-28 text-slate-800 dark:text-slate-50 font-burtons bold mr-2">
-                      Niveau d'anglais
+                      Niveau d&apos;anglais
                     </p>
                     <div className="relative w-full h-10 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800">
                       <div className="absolute top-0 -left-1 h-full w-[80%]  bg-pink-500 rounded-full"></div>
@@ -304,8 +304,9 @@ export default function Home() {
             Contactez-moi !
           </h2>
           <p className="text-slate-800 dark:text-slate-50 text-xl mb-5">
-            Mon profil vous intéresse ? N'hésitez pas à m'envoyer un message via
-            le formulaire ! Je vous répondrai dans les plus brefs délais 🙂
+            Mon profil vous intéresse ? N&apos;hésitez pas à m&apos;envoyer un
+            message via le formulaire ! Je vous répondrai dans les plus brefs
+            délais 🙂
           </p>
           <ContactForm />
           <div className="flex-1 relative"></div>
