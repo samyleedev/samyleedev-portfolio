@@ -23,7 +23,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-slate-100 dark:bg-slate-800  scroll-smooth">
+      <main className="bg-slate-100 dark:bg-slate-800  scroll-smooth overflow-hidden">
         <nav className="px-5 lg:px-10 py-3 flex flex-wrap justify-between items-center sticky top-0 z-50 bg-slate-100 dark:bg-slate-800/90 backdrop-blur-lg ">
           <h1 className="text-slate-800 dark:text-slate-50 font-bold text-xl font-burtons cursor-pointer">
             <a href="#home">_SamyLeeDev</a>
@@ -232,7 +232,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <div className="hidden md:flex lg:flex  flex-row w-screen h-40 bg-slate-200 ">
+        <div className="hidden md:flex lg:flex  flex-row w-screen h-40 bg-slate-200">
           {technologies.map(({ title, logo }) => (
             <div
               key={title}

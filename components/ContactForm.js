@@ -43,11 +43,8 @@ const ContactForm = () => {
           icon: "success",
           confirmButtonText: "Ok",
         });
-
-        console.log(result.text);
       })
       .catch((error) => {
-        console.log(error.text);
         Swal.fire({
           title: "Oups, une erreur est survenue !",
           text: "Le message n'a pas été correctement envoyé, réessayez, ou envoyez moi directement un email à l'adresse suivante : samy.levy.dev@gmail.com",
