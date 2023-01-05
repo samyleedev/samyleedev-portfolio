@@ -346,7 +346,7 @@ export default function Home() {
               className="w-16 h-auto p-1 inline"
             />
             .<br />
-            L'intégralité du code est en accès libre ici{" "}
+            L&apos;intégralité du code est en accès libre ici{" "}
             <a href="https://github.com/samyleedev/samyleedev-portfolio">
               <img
                 src="../logo_technologies/github.png"
