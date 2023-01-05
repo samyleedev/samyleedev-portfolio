@@ -325,7 +325,7 @@ export default function Home() {
               alt="Logo React.js"
               className="w-16 h-auto p-1 inline"
             />{" "}
-            /{" "}
+            associé à{" "}
             <img
               src="../logo_technologies/nextjs.png"
               alt="Logo Next.js"
