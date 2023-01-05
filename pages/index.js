@@ -301,7 +301,7 @@ export default function Home() {
         </section>
         <section
           id="contact"
-          className="px-5 lg:px-10 pt-10 pb-10  flex flex-col mt-5"
+          className="px-5 lg:px-10 pt-10 pb-10  flex flex-col mt-5 bg-slate-200 dark:bg-slate-800"
         >
           <h2 className="text-teal-600 dark:text-yellow-400 text-5xl font-burtons text-bold mb-5">
             Contactez-moi !
@@ -314,6 +314,48 @@ export default function Home() {
           <ContactForm />
           <div className="flex-1 relative"></div>
         </section>
+        <footer
+          className="text-sm px-5 lg:px-10 pt-5 pb-5 h-auto overflow-hidden  dark:bg-slate-700 flex justify-center items-center font-burtons text-slate-800 dark:text-slate-50
+        "
+        >
+          <p className="text-center">
+            Ce portfolio a été réalisé en{" "}
+            <img
+              src="../logo_technologies/react.png"
+              alt="Logo React.js"
+              className="w-16 h-auto p-1 inline"
+            />{" "}
+            associé à{" "}
+            <img
+              src="../logo_technologies/nextjs.png"
+              alt="Logo Next.js"
+              className="w-16 h-auto p-2 inline"
+            />
+            ,
+            <br />
+            stylisé avec{" "}
+            <img
+              src="../logo_technologies/tailwind.png"
+              alt="Logo TailwindCSS"
+              className="w-24 h-auto p-1 inline"
+            />{" "}
+            et deployé grâce à
+            <img
+              src="../logo_technologies/vercel.png"
+              alt="Logo Vercel"
+              className="w-16 h-auto p-1 inline"
+            />
+            .<br />
+            L'intégralité du code est en accès libre ici{" "}
+            <a href="https://github.com/samyleedev/samyleedev-portfolio">
+              <img
+                src="../logo_technologies/github.png"
+                alt="Logo Github"
+                className="w-16 h-auto p-1 inline cursor-pointer animate-bounce transition ease-in-out hover:-translate-y-2  duration-300"
+              />
+            </a>
+          </p>
+        </footer>
       </main>
     </div>
   );
