@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { BsFillMoonStarsFill, BsSunFill } from "react-icons/bs";
 import { projects, technologies } from "../utils/data";
@@ -188,7 +189,7 @@ export default function Home() {
                     <p className="w-28 text-slate-800 dark:text-slate-50 font-burtons bold mr-2">
                       Curieux
                     </p>
-                    <div className="relative w-full h-10 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800">
+                    <div className="relative w-full h-9 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800 border-gray-300 border">
                       <div className="absolute top-0 -left-1 h-full w-[90%]  bg-blue-700 rounded-full "></div>
                     </div>
                   </div>
@@ -196,7 +197,7 @@ export default function Home() {
                     <p className="w-28 text-slate-800 dark:text-slate-50 font-burtons bold mr-2">
                       Sympathique
                     </p>
-                    <div className="relative w-full h-10 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800">
+                    <div className="relative w-full h-9 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800 border-gray-300 border">
                       <div className="absolute top-0 -left-1 h-full w-[80%]  bg-red-700 rounded-full "></div>
                     </div>
                   </div>
@@ -205,7 +206,7 @@ export default function Home() {
                     <p className="w-28 text-slate-800 dark:text-slate-50 font-burtons bold mr-2">
                       Coopératif
                     </p>
-                    <div className="relative w-full h-10 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800">
+                    <div className="relative w-full h-9 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800 border-gray-300 border">
                       <div className="absolute top-0 -left-1 h-full w-[82%]  bg-green-700 rounded-full"></div>
                     </div>
                   </div>
@@ -214,7 +215,7 @@ export default function Home() {
                     <p className="w-28 text-slate-800 dark:text-slate-50 font-burtons bold mr-2">
                       Adaptable
                     </p>
-                    <div className="relative w-full h-10 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800">
+                    <div className="relative w-full h-9 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800 border-gray-300 border">
                       <div className="absolute top-0 -left-1 h-full w-[85%]  bg-yellow-500 rounded-full"></div>
                     </div>
                   </div>
@@ -223,7 +224,7 @@ export default function Home() {
                     <p className="w-28 text-slate-800 dark:text-slate-50 font-burtons bold mr-2">
                       Anglophone
                     </p>
-                    <div className="relative w-full h-10 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800">
+                    <div className="relative w-full h-9 rounded-full bg-gray-300 overflow-hidden shadow-md shadow-slate-800 border-gray-300 border">
                       <div className="absolute top-0 -left-1 h-full w-[80%]  bg-pink-500 rounded-full"></div>
                     </div>
                   </div>
@@ -266,35 +267,41 @@ export default function Home() {
 
           <div className="flex flex-wrap">
             {projects.map(
-              ({ title, description, type, image, technologies }) => (
-                <div
-                  key={title}
-                  className="w-80 h-80 flex flex-col bg-white rounded-lg  border border-gray-200 shadow-md  dark:bg-gray-800 dark:border-gray-700 m-3 overflow-hidden cursor-pointer transition ease-in-out hover:scale-105"
+              ({ id, title, description, type, image, technologies, url }) => (
+                // <Link legacyBehavior href={url} key={id}>
+                <a
+                  href={url}
+                  key={id}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <div className="flex justify-center h-40 bg-red-200 ">
-                    <img className="object-cover w-full" src={image} alt="" />
-                  </div>
+                  <div className="w-80 h-80 flex flex-col bg-white rounded-lg  border border-gray-200 shadow-md  dark:bg-gray-800 dark:border-gray-700 m-3 overflow-hidden cursor-pointer transition ease-in-out hover:scale-105">
+                    <div className="flex justify-center h-40 bg-red-200 ">
+                      <img className="object-cover w-full" src={image} alt="" />
+                    </div>
 
-                  <div className="p-5">
-                    <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        {title}
-                      </h5>
-                    </a>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-ellipsis">
-                      {description}
-                    </p>
-
-                    {technologies.map((technology) => (
-                      <p
-                        className="inline bold text-gray-900 dark:text-white"
-                        key={technology}
-                      >
-                        {technology},
+                    <div className="p-5">
+                      <a href="#">
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                          {title}
+                        </h5>
+                      </a>
+                      <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-ellipsis">
+                        {description}
                       </p>
-                    ))}
+
+                      {technologies.map((technology) => (
+                        <p
+                          className="inline bold text-gray-900 dark:text-white"
+                          key={technology}
+                        >
+                          {technology},
+                        </p>
+                      ))}
+                    </div>
                   </div>
-                </div>
+                </a>
+                // </Link>
               )
             )}
           </div>

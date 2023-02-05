@@ -64,26 +64,11 @@ export const technologies = [
 export const projects = [
   {
     id: 1,
-    title: "Projet en préparation",
-    image: "https://picsum.photos/200/300",
+    title: "Eisenhower Todo App",
+    image: "../screenshots/eisenhowerTodoApp.png",
     description: "Description de React",
     type: "frontend",
-    technologies: ["React", "TailWindCSS"],
-  },
-  {
-    id: 2,
-    title: "Projet en préparation",
-    image: "https://picsum.photos/200/300",
-    description: '"Au bout de la patience il y a le ciel..."',
-    type: "frontend",
-    technologies: ["React", "TailWindCSS"],
-  },
-  {
-    id: 3,
-    title: "Projet en préparation",
-    image: "https://picsum.photos/200/300",
-    description: '"Les meilleures choses ont besoin de patience..."',
-    type: "frontend",
-    technologies: ["React", "TailWindCSS"],
+    technologies: ["React", "Redux-Toolkit", "Tailwind CSS"],
+    url: "https://todo-app-samyleedev.vercel.app/",
   },
 ];
