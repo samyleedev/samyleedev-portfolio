@@ -267,15 +267,19 @@ export default function Home() {
 
           <div className="flex flex-wrap">
             {projects.map(
-              ({ id, title, description, type, image, technologies, url }) => (
-                // <Link legacyBehavior href={url} key={id}>
+              ({ id, title, description, type, image, tags, url }) => (
                 <a
                   href={url}
                   key={id}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="w-80 h-80 flex flex-col bg-white rounded-lg  border border-gray-200 shadow-md  dark:bg-gray-800 dark:border-gray-700 m-3 overflow-hidden cursor-pointer transition ease-in-out hover:scale-105">
+                  <div className="w-80 h-[550px] flex flex-col bg-white rounded-lg  border border-gray-200 shadow-md  dark:bg-gray-800 dark:border-gray-700 m-3 overflow-hidden cursor-pointer transition ease-in-out hover:scale-105 relative">
+                    <div className=" bg-rose-600 rounded-xl w-12 h-12 absolute -right-2 -top-2">
+                      <p className="text-white font-bold text-xs absolute bottom-3 left-1">
+                        Front
+                      </p>
+                    </div>
                     <div className="flex justify-center h-40 bg-red-200 ">
                       <img className="object-cover w-full" src={image} alt="" />
                     </div>
@@ -290,18 +294,19 @@ export default function Home() {
                         {description}
                       </p>
 
-                      {technologies.map((technology) => (
-                        <p
-                          className="inline bold text-gray-900 dark:text-white"
-                          key={technology}
-                        >
-                          {technology},
-                        </p>
-                      ))}
+                      <div className="flex flex-wrap">
+                        {tags.map((tag) => (
+                          <p
+                            className="bold text-gray-900 dark:bg-slate-700 w-fit p-2 mr-2 mb-2 rounded-xl dark:text-white"
+                            key={tag}
+                          >
+                            {tag}
+                          </p>
+                        ))}
+                      </div>
                     </div>
                   </div>
                 </a>
-                // </Link>
               )
             )}
           </div>
