@@ -64,26 +64,36 @@ export const technologies = [
 export const projects = [
   {
     id: 1,
-    title: "Projet en préparation",
-    image: "https://picsum.photos/200/300",
-    description: "Description de React",
+    title: "Eisenhower Todo App",
+    image: "../screenshots/eisenhowerTodoApp.png",
+    description:
+      "Voyez en clin d'oeil vos tâches à prioriser, à planifier, voire à purement et simplement abandonner avec cette TodoApp enrichie d'une matrice d'Eisenhower. Soyez plus organisé que jamais !",
     type: "frontend",
-    technologies: ["React", "TailWindCSS"],
+    tags: [
+      "React",
+      "Redux-Toolkit",
+      "Persistance des données",
+      "Tailwind CSS",
+      "Responsive",
+    ],
+    url: "https://todo-app-samyleedev.vercel.app/",
   },
   {
-    id: 2,
-    title: "Projet en préparation",
-    image: "https://picsum.photos/200/300",
-    description: '"Au bout de la patience il y a le ciel..."',
+    id: 1,
+    title: "Countries Quiz Challenge",
+    image: "../screenshots/countriesQuizChallenge.png",
+    description:
+      "Testez vos connaissances géographiques avec cet éléguant petit quiz. Attention, vous n'aurez pas le droit à l'erreur ! Ceci est ma solution au challenge proposé par devchallenges.io.",
     type: "frontend",
-    technologies: ["React", "TailWindCSS"],
-  },
-  {
-    id: 3,
-    title: "Projet en préparation",
-    image: "https://picsum.photos/200/300",
-    description: '"Les meilleures choses ont besoin de patience..."',
-    type: "frontend",
-    technologies: ["React", "TailWindCSS"],
+    tags: [
+      "React",
+      "Redux-Toolkit",
+      "Sass",
+      "Responsive",
+      "API",
+      "Intégration",
+      "Challenge",
+    ],
+    url: "https://country-quiz-master-devchallenges-ghbzpfcos-samyleedev.vercel.app/",
   },
 ];
