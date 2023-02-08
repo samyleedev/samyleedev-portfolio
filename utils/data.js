@@ -67,7 +67,7 @@ export const projects = [
     title: "Eisenhower Todo App",
     image: "../screenshots/eisenhowerTodoApp.png",
     description:
-      "Voyez en clin d'oeil vos tâches à prioriser, à planifier, voire à purement et simplement abandonner avec cette TodoApp enrichie d'une matrice d'Eisenhower. Soyez plus organisé que jamais !",
+      "Voyez en un clin d'oeil vos tâches à prioriser, à planifier, voire à purement et simplement abandonner avec cette TodoApp enrichie d'une matrice d'Eisenhower. Soyez plus organisé que jamais !",
     type: "frontend",
     tags: [
       "React",
@@ -83,7 +83,7 @@ export const projects = [
     title: "Countries Quiz Challenge",
     image: "../screenshots/countriesQuizChallenge.png",
     description:
-      "Testez vos connaissances géographiques avec cet éléguant petit quiz. Attention, vous n'aurez pas le droit à l'erreur ! Ceci est ma solution au challenge proposé par devchallenges.io.",
+      "Testez vos connaissances géographiques avec cet élégant petit quiz. Attention, vous n'aurez pas le droit à l'erreur ! Ceci est ma solution au challenge proposé par devchallenges.io.",
     type: "frontend",
     tags: [
       "React",
@@ -94,6 +94,6 @@ export const projects = [
       "Intégration",
       "Challenge",
     ],
-    url: "https://country-quiz-master-devchallenges-ghbzpfcos-samyleedev.vercel.app/",
+    url: "https://country-quiz-master-devchallenges.vercel.app/",
   },
 ];
