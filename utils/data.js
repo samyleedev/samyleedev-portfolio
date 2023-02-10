@@ -77,9 +77,10 @@ export const projects = [
       "Responsive",
     ],
     url: "https://todo-app-samyleedev.vercel.app/",
+    github: "https://github.com/samyleedev/todo-app",
   },
   {
-    id: 1,
+    id: 2,
     title: "Countries Quiz Challenge",
     image: "../screenshots/countriesQuizChallenge.png",
     description:
@@ -94,6 +95,7 @@ export const projects = [
       "Intégration",
       "Challenge",
     ],
-    url: "https://country-quiz-master-devchallenges.vercel.app/",
+    url: "https://country-quiz-master-devchallenges-ghbzpfcos-samyleedev.vercel.app/",
+    github: "https://github.com/samyleedev/country-quiz-master-devchallenges",
   },
 ];
