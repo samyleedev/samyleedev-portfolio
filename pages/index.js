@@ -315,7 +315,7 @@ export default function Home() {
                     <div className="flex flex-wrap">
                       {tags.map((tag) => (
                         <p
-                          className="bold text-gray-900 dark:bg-slate-700 w-fit p-2 mr-2 mb-2 rounded-xl dark:text-white"
+                          className="bold text-gray-900 bg-slate-200  dark:bg-slate-700 w-fit p-2 mr-2 mb-2 rounded-xl dark:text-white"
                           key={tag}
                         >
                           {tag}

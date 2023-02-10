@@ -95,7 +95,7 @@ export const projects = [
       "Intégration",
       "Challenge",
     ],
-    url: "https://country-quiz-master-devchallenges-ghbzpfcos-samyleedev.vercel.app/",
+    url: "https://country-quiz-master-devchallenges.vercel.app/",
     github: "https://github.com/samyleedev/country-quiz-master-devchallenges",
   },
 ];
