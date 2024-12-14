@@ -98,4 +98,20 @@ export const projects = [
     url: "https://country-quiz-master-devchallenges.vercel.app/",
     github: "https://github.com/samyleedev/country-quiz-master-devchallenges",
   },
+  {
+    id: 3,
+    title: "Studio Rary",
+    image: "../screenshots/studioRary.png",
+    description:
+      "Site vitrine/portfolio remis clé en main pour Studio Rary, un studio d'architecture et de design d'intérieur basé à Madagascar. Réalisé avec WordPress à partir des maquettes fournies par le client, le site est multilingue (malgache, français, anglais) et, bien sûr, entièrement responsive.",
+    type: "wordpress",
+    tags: [
+      "Wordpress",
+      "Elementor",
+      "Multilingue",
+      "SEO",
+      "Responsive",
+    ],
+    url: "https://studiorary.com/",
+  },
 ];

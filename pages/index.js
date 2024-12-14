@@ -272,11 +272,20 @@ export default function Home() {
                   key={id}
                   className="w-80 h-[550px] flex flex-col bg-white rounded-lg  border border-gray-200 shadow-md  dark:bg-gray-800 dark:border-gray-700 m-3 overflow-hidden relative transition ease-in-out hover:scale-105"
                 >
-                  <div className="bg-rose-600 rounded-xl w-12 h-12 absolute -right-2 -top-2">
+                  {type === "frontend" && (
+                    <div className="bg-rose-600 rounded-xl w-12 h-12 absolute -right-2 -top-2">
                     <p className="text-white font-bold text-xs absolute bottom-3 left-1">
                       Front
                     </p>
                   </div>
+                  )}
+                  {type === "wordpress" && (
+                    <div className="bg-blue-600 rounded-xl w-12 h-12 absolute -right-2 -top-2">
+                    <p className="text-white font-bold text-xs absolute bottom-3 left-3">
+                      WP
+                    </p>
+                  </div>
+                  )}
                   {github && (
                     <a href={github} target="_blank" rel="noopener noreferrer">
                       <img
